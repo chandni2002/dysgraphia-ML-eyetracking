@@ -1,8 +1,8 @@
-#Chandni Kumari, astronautchandni@gmail.com
+#Chandni Kumari, astronautchandni@outlook.com
 
 #Terminal Command: python forDemo.py --shape-predictor shape_predictor_68_face_landmarks.dat --picamera 1
 
-#Please see the following link for the full research paper: https://drive.google.com/drive/u/0/folders/1kyn-GxwLb1Dq3OoreHIPnch6dvDqNbV8
+#Please see the following link for the full research paper: file:///C:/Users/CHANDNI/OneDrive/Documents/Desktop/FINAL_DyslexiaScreeningApplication_PAPER%20(2).pdf
 
 # import the necessary packages
 from imutils.video import VideoStream
@@ -475,9 +475,9 @@ for x in frameCounterProgression:
 
 #determined this threshold of 385ms after analysis of a dataset of 185 eye movement recordings from the Karolinsa Institute in Sweden 
 if (averageFixationLengthMS>385): 
-    print('You could be dysgraphia! Please seek expert medical advice')
+    print('You could be dyslexic! Please seek expert medical advice')
 else:
-    print('You are most likely not dysgraphia. Have a great day!')
+    print('You are most likely not dyslexic. Have a great day!')
 
 
 plt.figure(1)
